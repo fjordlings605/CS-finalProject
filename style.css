@@ -1,0 +1,78 @@
+/*
+font-family: 'Courgette', cursive;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Lobster', cursive;
+*/
+/* color pallette
+lemon chiffon - FAF0CA
+jasmine - F6DB79
+coral - F28969
+cambridge blue - 76A78C
+reseda green - 5E8263  */
+body {
+    background-color: #FAF0CA;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #5e8263;
+    border: 5px double #76a78c;
+    margin: 10px 0px;
+    padding: 5px;
+}
+h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #f28969;
+    margin:10px 10px 10px 5px;
+}
+p {
+    font-family: 'Courgette', cursive;
+    margin:5px;
+}
+/*#float {
+    float:left;
+    padding: 0px 100px;
+}*/
+.createOrder {
+    text-align:center;
+    border: 3px dashed #76a78c;
+}
+#btn:hover {
+    background-color: #76a78c;
+    color: #f6d879;
+}
+.form {
+    margin:10px 0px;
+    padding: 5px;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    border: 3px dashed #76a78c;
+}
+.form label{
+    padding: 2px;
+    margin:2px;
+}
+#order{
+    text-align: left;
+    border: 3px dashed #76a78c;  
+    padding: 3px 5px 10px 5px; 
+}
+#order div{
+    padding: 0px 100px;
+    font-family: 'Lobster', cursive;
+}
+#top1 {
+    display:inline;
+}
+#top2 {
+    display: inline;
+}
+#top3 {
+    display:inline;
+}
+
+#btn {
+    margin: 5px;
+    padding: 5px;
+}
