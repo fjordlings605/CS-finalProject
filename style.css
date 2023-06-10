@@ -1,24 +1,31 @@
-/*
+/* FONTS
 font-family: 'Courgette', cursive;
 font-family: 'Josefin Sans', sans-serif;
 font-family: 'Lobster', cursive;
 */
-/* color pallette
+/* Color Pallette
 lemon chiffon - FAF0CA
-jasmine - F6DB79
+drab dark brown - 483D03
 coral - F28969
 cambridge blue - 76A78C
 reseda green - 5E8263  */
 body {
-    background-color: #FAF0CA;
+    /* background-color: #FAF0CA; */
+    background-image: url('images/shaian-ramesht-pizza.jpg');
+    /* background-attachment: fixed; */
+    background-size: 100% 150%;
+    color: #483d03;
 }
 
 h1 {
     text-align: center;
+    background-color: #FAF0CA;
+    opacity: 0.75;
     font-family: 'Josefin Sans', sans-serif;
     color: #5e8263;
     border: 5px double #76a78c;
-    margin: 10px 0px;
+    border-radius: 20px 20px 0px 0px;
+    margin: 15px 15%;
     padding: 5px;
 }
 h3 {
@@ -30,47 +37,72 @@ p {
     font-family: 'Courgette', cursive;
     margin:5px;
 }
-/*#float {
-    float:left;
-    padding: 0px 100px;
-}*/
 .createOrder {
-    text-align:center;
+    text-align:left;
+    background-color: #FAF0CA;
+    opacity: 0.75;
+    margin: 0% 20%;
     border: 3px dashed #76a78c;
+    border-radius: 20px 20px 0px 0px;
+    padding-bottom: 25px;
+    float:center;
 }
+#float1{
+    float:left;
+    padding-left: 15%;
+    padding-right: 10%;
+}
+#float2 {
+    padding-left: 60%;
+    padding-right:10%;
+}
+
 #btn:hover {
+    border-radius: 5px;
     background-color: #76a78c;
-    color: #f6d879;
+    font-size: 13px;
+    color: #FAF0CA;
 }
 .form {
-    margin:10px 0px;
+    background-color: #FAF0CA;
+    opacity: 0.75;
+    margin:20px 10%;
     padding: 5px;
     text-align: center;
     font-family: 'Lobster', cursive;
     border: 3px dashed #76a78c;
+    border-radius: 20px 20px 0px 0px;
 }
 .form label{
     padding: 2px;
-    margin:2px;
+    margin:10px;
 }
+#crust, #sauce, #btn{
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 10px 2px;
+    width: 150px;
+}
+
 #order{
+    background-color: #FAF0CA;
+    opacity: 0.75;
     text-align: left;
-    border: 3px dashed #76a78c;  
+    border: 3px dashed #76a78c; 
+    border-radius: 20px 20px 0px 0px;
+    margin: 10px 15%; 
     padding: 3px 5px 10px 5px; 
 }
 #order div{
-    padding: 0px 100px;
+    color: black;
+    padding: 5px 100px;
     font-family: 'Lobster', cursive;
 }
-#top1 {
+#top1, #top2, #top3 {
     display:inline;
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 10px 2px;
 }
-#top2 {
-    display: inline;
-}
-#top3 {
-    display:inline;
-}
+
 
 #btn {
     margin: 5px;

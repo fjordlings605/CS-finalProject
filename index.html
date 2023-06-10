@@ -11,9 +11,9 @@
     </head>
 
     <body>
-        <h1>Custom Pizzas</h1>
+        <h1>Fjords Custom Pizzas</h1>
         <div class="createOrder">
-            <div id="float">
+            <div id="float1">
                 <h3>Available Crusts</h3>
                 <p>Original</p>
                 <p>Thin Crust</p><br>
@@ -23,28 +23,74 @@
                 <p>Spicy Marinara</p>
                 <p>White Garlic Sauce</p><br>
             </div>
-            <h3>Available Toppings</h3>
-            <p>Chicken</p>
-            <p>Pepperoni</p>
-            <p>Cheese</p>
-            <p>Mushrooms</p>
-            <p>Baby Spinach</p>
-            <p>Olives</p><br>
+            <div id="float2">
+                <h3>Available Toppings</h3>
+                <p>Chicken</p>
+                <p>Pepperoni</p>
+                <p>Canadian Bacon</p>
+                <p>Cheese</p>
+                <p>Mushrooms</p>
+                <p>Baby Spinach</p>
+                <p>Olives</p>
+                <p>Pineapple</p>
+            </div>
         </div>
         <div class="form">
             <form>
                 <br><label for="crust">Choose Your Crust:  </label>
-                <input type="text" id="crust"><br>
+                <select id="crust">    <!--dropdown menu for crust type-->
+                    <option value="Original">Original</option>
+                    <option value="Thin Crust">Thin Crust</option>
+                </select><br>
+                <!-- <input type="text" id="crust"><br> -->
                 <label for="sauce">Choose Your Sauce:</label>
-                <input type="text" id="sauce"><br>
+                <select id="sauce">    <!--dropdown menu for sauces-->
+                    <option value="Classic Tomato">Classic Tomato</option>
+                    <option value="Spicy Marinara">Spicy Marinara</option>
+                    <option value="White Garlic">White Garlic Sauce</option>
+                </select><br>
+                <!-- <input type="text" id="sauce"><br> -->
                 <label>Topping 1:</label>
-                <input type="text" id="top1">
+                <select id="top1">  <!--dropdown menu for toppings-->
+                    <option value=""></option>
+                    <option value="Cheese">Cheese</option>
+                    <option value="Pepperoni">Pepperoni</option>
+                    <option value="Canadian Bacon">Canadian Bacon</option>
+                    <option value="Chicken">Chicken</option>
+                    <option value="Olives">Olives</option>
+                    <option value="Mushrooms">Mushrooms</option>
+                    <option value="Baby Spinach">Baby Spinach</option>
+                    <option value="Pineapple">Pineapple</option>
+                </select>
+                <!-- <input type="text" id="top1"> -->
                 <label>Topping 2:</label>
-                <input type="text" id="top2">
+                <select id="top2">  <!--dropdown menu for toppings-->
+                    <option value=""></option>
+                    <option value="Cheese">Cheese</option>
+                    <option value="Pepperoni">Pepperoni</option>
+                    <option value="Canadian Bacon">Canadian Bacon</option>
+                    <option value="Chicken">Chicken</option>
+                    <option value="Olives">Olives</option>
+                    <option value="Mushrooms">Mushrooms</option>
+                    <option value="Baby Spinach">Baby Spinach</option>
+                    <option value="Pineapple">Pineapple</option>
+                </select>
+                <!-- <input type="text" id="top2"> -->
                 <label>Topping 3:</label>
-                <input type="text" id="top3">
+                <select id="top3">  <!--dropdown menu for toppings-->
+                    <option value=""></option>
+                    <option value="Cheese">Cheese</option>
+                    <option value="Pepperoni">Pepperoni</option>
+                    <option value="Canadian Bacon">Canadian Bacon</option>
+                    <option value="Chicken">Chicken</option>
+                    <option value="Olives">Olives</option>
+                    <option value="Mushrooms">Mushrooms</option>
+                    <option value="Baby Spinach">Baby Spinach</option>
+                    <option value="Pineapple">Pineapple</option>
+                </select>
+                <!-- <input type="text" id="top3"> -->
             </form> <br>
-            <button id="btn">Create Order</button>
+            <button id="btn">Create Order</button><br>
         </div>
         
         <div id="order">
